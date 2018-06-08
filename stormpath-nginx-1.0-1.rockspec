@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = 'stormpath-nginx'
-version = '1.0-0'
+version = '1.0-1'
+-- LuaDist source
 source = {
-  url = 'https://github.com/stormpath/stormpath-nginx',
-  tag = '1.0'
+  tag = "1.0-1",
+  url = "git://github.com/LuaDist-testing/stormpath-nginx.git"
 }
+-- Original source
+-- source = {
+--   url = 'git://github.com/stormpath/stormpath-nginx',
+--   tag = '1.0'
+-- }
 description = {
   summary = 'A Stormpath + nginx integration',
   detailed = [[
